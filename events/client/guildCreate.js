@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-const Channel = "813789957088083998";
+const Channel = "ChannelID";
 // For this event, we are not gonna use any database because It's personal event not for public. :) 
 
 const verificationLevels = {
