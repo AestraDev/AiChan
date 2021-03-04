@@ -4,7 +4,7 @@ const { Client, Collection } = require("discord.js");
 
 const { config } = require("dotenv");
 
-const { prefix } = require("./modules/config.json")
+const { prefix, token, owner } = require("./modules/config.json")
 
 const emoji = require("./modules/emoji.json")
 
@@ -86,6 +86,6 @@ client.on('message', async message => {
 
 })
 
-client.login(process.env.Token).catch(err => {
+client.login(token).catch(err => {
     console.log("Invalid Token Provided")
 })
