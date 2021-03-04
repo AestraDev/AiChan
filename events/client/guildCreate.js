@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 
-const LogChannel = "813789957088083998";
-// For this event. We are not gonna use any database. Because It's personal event not for public. :) 
+const Channel = "813789957088083998";
+// For this event, we are not gonna use any database because It's personal event not for public. :) 
 
 const verificationLevels = {
   NONE: 'None',
@@ -50,6 +50,6 @@ module.exports = (client, guild) => {
     )
     .setTimestamp();
 
-  return client.channels.cache.get(LogChannel).send(Added); // Gets the channel and send the embed
+  return client.channels.cache.get(Channel).send(Added); // Gets the channel and send the embed
 
 }
