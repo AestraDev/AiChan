@@ -1,3 +1,5 @@
 {
-    "prefix": "a!"
+    "prefix": "a!",
+    "token": "YOUR BOT TOKEN",
+    "owner": ["Your ID"]
 }
